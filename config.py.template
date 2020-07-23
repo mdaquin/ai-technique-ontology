@@ -1,0 +1,16 @@
+
+# ID of the root entity to extract - e.g. 'Q11660' is Artificial Intelligence 
+eid='Q11660'
+
+# Wikidata sparql endpoint
+endpoint='https://query.wikidata.org/sparql'
+
+# to exclude - list of entities that should ignored as they generate irrelevant subbranches
+toexclude = ['Q10926413', 'Q11173', 'Q16521', 'Q28640', 'Q22999537', 'Q19361238', 'Q16889133', 'Q35120', 'Q15831596', 'Q11190', 'Q49389', 'Q820655', 'Q11344', 'Q1269299', 'Q627436', 'Q1428955', 'Q21146257', 'Q7184903', 'Q14620', 'Q780687', 'Q727002', 'Q1196092', 'Q4120621', 'Q28923954', 'Q19335303', 'Q17362920', 'Q313301', 'Q24017414', 'Q14545639', 'Q24334893', 'Q460178', 'Q9299236', 'Q510785', 'Q60198902', 'Q22731', 'Q287', 'Q21286738', 'Q28065731', 'Q427626', 'Q3084961', 'Q17339814', 'Q11379', 'Q4886', 'Q7432', 'Q34740', 'Q5469884', 'Q20488450', 'Q1165560', 'Q15075845', 'Q1263068', 'Q33294038', 'Q19656964', 'Q221392', 'Q1', 'Q18195767', 'Q47526089', 'Q29918328', 'Q29918335', 'Q30064737', 'Q429795', 'Q1936581', 'Q3977918', 'Q12089225', 'Q24241569', 'Q21506450', 'Q23905069', 'Q53628618', 'Q53628761', 'Q62933934', 'Q53629707', 'Q58886934', 'Q53629707', 'Q53630002', 'Q29645880', 'Q56640800', 'Q29645886', 'Q12047392', 'Q55084935', 'Q6797672', 'Q23925661', 'Q4164871', 'Q53628296', 'Q40112212', 'Q53628522', 'Q6797703', 'Q56760832']
+
+# interupt the process after the nth item if more than m entities are added. n=interuptafter, m=interupt if more
+# useful to figure out what to put in toexclude
+interuptafter = 300
+interuptifmore = 10
+
+
