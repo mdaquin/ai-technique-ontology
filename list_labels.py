@@ -1,8 +1,9 @@
 import json
+import sys
 
 data = {}
 
-with open("data/entities.json") as f:
+with open(sys.argv[1]) as f:
     data = json.load(f)
 
 for i in data:
